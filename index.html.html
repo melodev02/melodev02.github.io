@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>melodev</title>
+
+</head>
+
+<body>
+
+    <h1 class="Titulo">QUANDO O BRAYAN FOI CORNO?<h1>
+
+    <p class="T2">sla mano só qualquer info<p>
+
+    <button class="botão" onclick="alert('QUE BOSTA EM')">
+        Não clique
+    </button>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <h1 style="color:blue">"GATINHO GIRANDO👌"</h1>
+
+    <img src="https://media.tenor.com/FYsjyvi3C7kAAAAi/rupert-cat.gif">
+
+
+    <button onclick = "tocarAudio()">
+      Som 🔊
+    </button>
+
+    <audio id="meuAudio">
+        <source src = "https://www.myinstants.com/media/sounds/briga-de-gato.mp3">
+
+    </audio>
+
+    <img class="T3" src="https://media1.tenor.com/m/Evs1BX3em4kAAAAC/conguitos.gif">
+
+<script>
+
+    function tocarAudio() {
+      document.getElementById("meuAudio").play();
+}
+
+</script>
+
+
+</html>
+
+<style>
+
+    body {
+        background: #222;
+        color: white;
+        text-align: center;
+        h1 {
+        font-size: 40
+    px;
+
+ }
+}
+/* celular */
+
+    @media (max-width: 600px) {
+  body {
+
+        background: #222;
+        color: white;
+
+        h1 {
+            font-size: 25px;
+    }
+   }
+ }
+
+
+    .T2 {
+
+        color:grey;
+        }
+
+    .botão {
+
+         color:black
+
+         }
+
+    .T3 {
+
+        width: 200px;
+        animation: girar 2s linear infinite;
+        }
+        @keyframes girar {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+}
+        }
+
+        .T3:hover {
+        transform: scale(1.2);
+}
+</style>
